@@ -11,6 +11,7 @@
       <el-row type="flex" justify="center" style="margin-top:20px;">
         <el-col :span="24"><el-button type="primary" style="width:300rpx;" icon="el-icon-check" @click="login">Login</el-button></el-col>
       </el-row>
+      
       <el-row type="flex" justify="center" style="margin-top:20px;">
         <router-link id="nologin" to="/Home">no Login</router-link>
       </el-row>
